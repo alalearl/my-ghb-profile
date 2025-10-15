@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+:root {
+	--color-primary: #ff9966;
+	--color-primary-light: #ffb088;
+	--color-primary-dark: #ff7744;
+	--color-background: #fffaf7;
+	--color-surface: #ffffff;
+}
+
+body {
+	background-color: var(--color-background);
+}
